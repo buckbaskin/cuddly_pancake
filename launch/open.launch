@@ -1,0 +1,11 @@
+<launch>
+
+  <!-- Launch stage with the specified world file-->
+  <node pkg="stage_ros" type="stageros" name="stage" args="$(find plan_test)/world/open2.world">
+    <remap from="base_pose_ground_truth" to="odom_map"/>
+  </node>
+
+  <!-- Launch rviz -->
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find plan_test)/launch/plan.rviz"/>
+
+</launch>
