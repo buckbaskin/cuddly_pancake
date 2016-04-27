@@ -56,7 +56,7 @@ window
   size [ 366.67  633.33 ] 
 
   rotate [ 0.000 0.000 ]
-  scale 28.806 
+  scale 10
 )
 
 # load an environment bitmap
