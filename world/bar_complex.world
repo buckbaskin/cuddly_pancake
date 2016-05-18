@@ -62,8 +62,8 @@ window
 # load an environment bitmap
 floorplan
 ( 
-  name "bar_simple"
-  bitmap "bar_simple.png"
+  name "bar_complex"
+  bitmap "bar_complex.png"
   size [40.000 40.000 2.000]
   pose [ 0.000 0.000 0.000 0.000 ]
 )
